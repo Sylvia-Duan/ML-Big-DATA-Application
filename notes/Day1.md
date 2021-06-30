@@ -1,3 +1,10 @@
+# What Do I Want to Learn
+1. Learn a new programming language (R)
+2. Learn more about Python
+3. How to construct model
+4. Deeper understanding of data analysis
+5. Academic knowledge about statistics
+
 # *Morning Session*
 
 Everyone introduced themselves, including grade, school, what they want to learn through this course, future plan and hobbies.
