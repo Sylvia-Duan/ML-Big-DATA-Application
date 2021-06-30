@@ -22,9 +22,6 @@ Supervised learning is defined by its use of labeled datasets to train algorithm
 During the class, I found that the terms of "continuous" and "discrete" is slightly different from what I learned in my school or in the IB Math system. In the IB Math system, "continous" means that a continous random variable can take any value within some interval on the number line, while "discrete" means that a discrete random variable has a set of distinct possible values. In data science, the occurrence of "discrete" indicates a classification problem, and this is more like the term "categorical random variable" which is distinguished from the general term "numerical random variable" includes continous ones and discrete ones. And the occurrence of "continuous" indicates a regression problem.
 
 ## Pipeline
-1. Stage I
-
-Data→Process→Machine learning→Backtest
-
-Using X to make educate guess on Y such that yhat which is based on f(X) is accurate at predicting Y
-2. Stage II - final production
+1. Stage I: Data → Process → Machine learning → Backtest
+   Using X to make educate guess on Y such that yhat which is based on f(X) is accurate at predicting Y
+3. Stage II - final production
