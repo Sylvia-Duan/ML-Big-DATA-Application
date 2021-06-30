@@ -23,6 +23,8 @@ During the class, I found that the terms of "continuous" and "discrete" is sligh
 
 ## Pipeline
 1. Stage I
+
 Data→Process→Machine learning→Backtest
+
 Using X to make educate guess on Y such that yhat which is based on f(X) is accurate at predicting Y
 2. Stage II - final production
