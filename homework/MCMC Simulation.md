@@ -18,5 +18,5 @@ while(i<5){
 &nbsp; &nbsp; &nbsp; &nbsp; dta1 = rnorm(100,0,0.05)  
 &nbsp; &nbsp; &nbsp; &nbsp; dta2 = dta1 + 1  
 &nbsp; &nbsp; &nbsp; &nbsp; dta3 = cumprod(dta2)  
-&nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = floor(runif(2, min=367, max=657)))  
+&nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = floor(runif(1, min=367, max=657)))  
 }
