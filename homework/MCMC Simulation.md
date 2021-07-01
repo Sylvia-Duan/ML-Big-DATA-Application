@@ -2,7 +2,7 @@ dta1 = rnorm(100,0,0.05)
 dta2 = dta1 + 1  
 dta3 = cumprod(dta2)  
 
-par(mfrow = c(1,1))
+par(mfrow = c(1,1))  
 plot(dta3, type = "l",  
 &nbsp; &nbsp; &nbsp; &nbsp; main = "MCMC Simulation",  
 &nbsp; &nbsp; &nbsp; &nbsp; xlab = "Time Step",  
