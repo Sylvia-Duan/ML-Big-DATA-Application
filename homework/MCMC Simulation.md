@@ -18,5 +18,5 @@ while(i<5){
 &nbsp; &nbsp; &nbsp; &nbsp; dta1 = c(1,rnorm(100,0,0.05))  
 &nbsp; &nbsp; &nbsp; &nbsp; dta2 = dta1 + 1  
 &nbsp; &nbsp; &nbsp; &nbsp; dta3 = cumprod(dta2)  
-&nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = i)  
+&nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = i, lty = i)  
 }
