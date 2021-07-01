@@ -2,21 +2,21 @@ dta1 = rnorm(100,0,0.05)
 dta2 = dta1 + 1  
 dta3 = cumprod(dta2)  
 
+par(mfrow = c(1,1))
 plot(dta3, type = "l",  
-          main = "MCMC Simulation",  
-          xlab = "Nunmber of Units",  
-          ylab = "Cumulative Return Path from $1",  
-          xlim = c(0,100),  
-          ylim = c(0,3),  
-          col = 405,  
-          pch = "o",  
-          lty = 1) 
+&nbsp; &nbsp; &nbsp; &nbsp; main = "MCMC Simulation",  
+&nbsp; &nbsp; &nbsp; &nbsp; xlab = "Time Step",  
+&nbsp; &nbsp; &nbsp; &nbsp; ylab = "Index Level",  
+&nbsp; &nbsp; &nbsp; &nbsp; xlim = c(0,100),  
+&nbsp; &nbsp; &nbsp; &nbsp; ylim = c(0,3),  
+&nbsp; &nbsp; &nbsp; &nbsp; col = 405,   
+&nbsp; &nbsp; &nbsp; &nbsp; lty = 1) 
      
 i=1  
 while(i<5){  
-          i = i + 1  
-          dta1 = rnorm(100,0,0.05)  
-          dta2 = dta1 + 1  
-          dta3 = cumprod(dta2)  
-          lines(dta3,col = floor(runif(2, min=367, max=657)))  
+&nbsp; &nbsp; &nbsp; &nbsp; i = i + 1  
+&nbsp; &nbsp; &nbsp; &nbsp; dta1 = rnorm(100,0,0.05)  
+&nbsp; &nbsp; &nbsp; &nbsp; dta2 = dta1 + 1  
+&nbsp; &nbsp; &nbsp; &nbsp; dta3 = cumprod(dta2)  
+&nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = floor(runif(2, min=367, max=657)))  
 }
