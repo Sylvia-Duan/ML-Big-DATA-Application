@@ -1,4 +1,4 @@
-dta1 = rnorm(100,0,0.05)  
+dta1 = c(1,rnorm(100,0,0.05))  
 dta2 = dta1 + 1  
 dta3 = cumprod(dta2)  
 
@@ -15,7 +15,7 @@ plot(dta3, type = "l",
 i=1  
 while(i<5){  
 &nbsp; &nbsp; &nbsp; &nbsp; i = i + 1  
-&nbsp; &nbsp; &nbsp; &nbsp; dta1 = rnorm(100,0,0.05)  
+&nbsp; &nbsp; &nbsp; &nbsp; dta1 = c(1,rnorm(100,0,0.05))  
 &nbsp; &nbsp; &nbsp; &nbsp; dta2 = dta1 + 1  
 &nbsp; &nbsp; &nbsp; &nbsp; dta3 = cumprod(dta2)  
 &nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = i)  
