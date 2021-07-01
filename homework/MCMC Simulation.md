@@ -1,4 +1,4 @@
-dta1 = c(1,rnorm(100,0,0.05))  
+dta1 = c(1,rnorm(100,0,0.05)) #Length = 100, Mean = 0, s.d = 0.05  
 dta2 = dta1 + 1  
 dta3 = cumprod(dta2)  
 
@@ -19,4 +19,5 @@ while(i<5){
 &nbsp; &nbsp; &nbsp; &nbsp; dta2 = dta1 + 1  
 &nbsp; &nbsp; &nbsp; &nbsp; dta3 = cumprod(dta2)  
 &nbsp; &nbsp; &nbsp; &nbsp; lines(dta3,col = i, lty = i)  
-}
+}  
+#Number of paths = 5
